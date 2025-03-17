@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navbar</title>
+    <style>
+        html,body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(39, 39, 39);
+            height: 55px;
+        }
+        .list{
+            display: flex;
+            list-style: none;
+            margin-right: 15%;
+        }
+        .list-items{
+            font-size: 20px;
+            color: white;
+            margin-right: 20px;
+            transition: color 0.5s;
+        }
+        .list-items:hover{
+            color: rgb(255, 183, 0);
+        }
+        img{
+            margin: 5px;
+            margin-left:15%;
+        }
+        .link{
+            color: red;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="Navbar">
+        <img src="">
+        <ul class="list">
+            <a href="https://github.com" target="_blank"><li class="list-items">Home</li></a>
+            <li class="list-items">Skills</li>
+            <li class="list-items">Education</li>
+            <li class="list-items">Acheivements</li>
+            <li class="list-items">Contact</li>
+        </ul>
+    </div>
+</body>
+</html>
