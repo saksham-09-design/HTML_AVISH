@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navbar</title>
+    <style>
+    html,body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(39, 39, 39);
+        height: 55px;
+    }
+    .list{
+        display: flex;
+        list-style: none;
+        margin-right: 15%;
+    }
+    .list-items{
+        font-size: 20px;
+        color: white;
+        margin-right: 20px;
+        transition: color 0.5s;
+    }
+    .list-items:hover{
+        color: rgb(255, 183, 0);
+    }
+    img{
+        margin: 5px;
+        margin-left:15%;
+    }
+    .link{
+        color: red;
+    }
+    a{
+        text-decoration: none;
+    }
+    .main{
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .left{
+        width: 50%;
+        height: 350px;
+        text-align: center;
+    }
+    .right{
+        height: 350px;
+        width: 50%;
+    }
+    .right img{
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+        margin-left: 0px;
+    }
+    
+    .int p{
+        font-size: 17px;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .name p{
+        font-size: 40px;
+        color:rgb(30, 49, 255);
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+    .left button{
+        height: 40px;
+        width: 180px;
+        margin-top: 20px;
+        background-color: rgb(30, 49, 255);
+        color: white;
+        font-size: 20px;
+        font-weight:  bold;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: rgb(255, 30, 30);
+        transition: ease-in 0.2s;
+    }
+    .left button:hover{
+        background-color: rgb(34, 255, 30);
+        color: black;
+        border-color: black;
+    }
+    .education{
+        display: flex;
+        margin-top: 0;
+        height: 280px;
+    }
+    .heading{
+        text-align: center;
+        color: yellow;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+    .edu{
+        width: 50%;
+        height: 100%;
+        margin: 1%;
+        margin-left: 150px;
+        background-color: #3a6ea5;
+        border-radius: 10px;
+        color: white;
+    }
+    .edu:hover{
+        background-color: #004e98;
+    }
+    .ach:hover{
+        background-color: #004e98;
+    }
+    ul{
+        list-style: none;
+    }
+    ol{
+        list-style: none;
+    }
+    li{
+        font-size: 30px;
+    }
+    big{
+        font-weight: bold;
+    }
+    .ach{
+        width: 50%;
+        height: 100%;
+        margin: 1%;
+        margin-right: 150px;
+        border-radius: 10px;
+        color: white;
+        background-color: #3a6ea5;
+    }
+    .ach li{
+        font-weight: bold;
+    }
+
+    .summary{
+        font-size: 17px;
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+    .aboutVideo{
+        width: 100%;
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .aboutVideo .heading{
+        color: blue;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    .aboutVideo video{
+        width: 100%;
+        height: 500px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="Navbar">
+        <img src="boy.jpg" alt="Boy Picture">
+        <ul class="list">
+            <a href="https://github.com" target="_blank"><li class="list-items">Home</li></a>
+            <li class="list-items">Skills</li>
+            <li class="list-items">Education</li>
+            <li class="list-items">Acheivements</li>
+            <li class="list-items">Contact</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="left">
+            <span class="name"><p>Saksham</p></span><br>
+            <span class="int"><p>I am a final-year BCA student, an eager learner and enthusiastic about his work. I thrives in team environments and always willing to collaborate and contribute. Dedicated to continuous self-improvement, I seeks opportunities to enhance my skills and knowledge daily.</p></span>
+            <a href="https://drive.google.com/file/d/1XnqhBhrXb146dRU2KlVHJ-3qyM5QYCRt/view?usp=drive_link" target="_blank"><button>Get Into Touch</button></a>
+        </div>
+        <div class="right">
+            <img src="BoyStudying.png">
+        </div>
+    </div>
+    <div class="education">
+        <div class="edu">
+            <div class="heading">Education</div>
+            <ul>
+                <li>Matriculation: <big>&nbsp;&nbsp;90%</big></li>
+                <li>
+                    Post Matric:
+                    <ol>
+                        <li>11<sup>th</sup>: <big>&nbsp;&nbsp;90%</big></li>
+                        <li>12<sup>th</sup>: <big>&nbsp;&nbsp;90%</big></li>
+                    </ol>
+                </li>
+                <li>Under Graduation: <big>&nbsp;&nbsp;90%</big></li>
+            </ul>
+        </div>
+        <div class="ach">
+            <div class="heading">Achievements</div>
+            <ul>
+                <li>
+                    Achievement 1
+                    <div class="summary">This is summary of Achievement 1</div>
+                </li>
+                <li>
+                    Achievement 2
+                    <div class="summary">This is summary of Achievement 2</div>
+                </li>
+                <li>
+                    Achievement 3
+                    <div class="summary">This is summary of Achievement 3</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="aboutVideo">
+        <div class="heading">Short Intro of Me :)</div>
+        <video src="Intro.mp4" autoplay loop></video>
+    </div>
+</body>
+</html>
