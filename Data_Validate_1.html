@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script language = "Javascript">
+            function check(){
+                if(form1.inp.value=="Saksham"||form1.inp1.value=="123")
+                        alert("Details Saved");
+                else
+                    alert("Incorrect Credentials");        
+            }
+        </script>
+        <title>
+            Data Validation
+        </title>
+    </head>
+    <body>
+        <form name = "form1">
+        <table align = "center" bgcolor = "yellow">
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type = "text" name = "inp">
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type = "password" name = "inp1"></td>
+            </tr>
+            <tr>
+                <td>Select Time:</td>
+                <td><input type="date" name="date1"></td>
+            </tr>
+            <tr>
+                <td>Select Color:</td>
+                <td><input type="color" name="date1"></td>
+            </tr>
+        </table>
+    </form>
+    <center>
+        <input type = "Submit" value = "Submit" onclick = "check()">
+    </center>
+    </body>
+</html>

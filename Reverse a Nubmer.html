@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Reverse a Numver</title>
+        <script language="javascript">
+            function reverse(num){
+                num=parseInt(num);
+                var rem=0,rev=0;
+                while(num>0){
+                    rem=num%10;
+                    rev=rev*10+rem;
+                    num = parseInt(num/10);
+                }
+                alert("The Reverse of Number is="+rev);
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form_1" id="form_1">
+            <input type="text" name="num_1">
+            <input type="button" value="Enter" onclick="reverse(form_1.num_1.value)">
+        </form>
+    </body>
+</html>

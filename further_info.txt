@@ -1,0 +1,13 @@
+HTML: https://www.youtube.com/watch?v=HcOc7P5BMi4
+CSS: https://www.youtube.com/watch?v=ESnrn1kAD4E
+JS: https://www.youtube.com/watch?v=VlPiVmYuoqw
+REACT JS: https://youtu.be/x4rFhThSX04?si=AFBpf2pAcD8x1Kg3
+NODE JS, EXPRESS JS, EXPRESS JS: https://www.youtube.com/watch?v=T55Kb8rrH1g&list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH
+PROJECTS:
+1. Amazon Clone
+2. Youtube Clone
+3. Uber Clone with backend: https://youtu.be/4qyBjxPlEZo?si=0aJU4mM3liNh1tUN
+
+Animation: 
+1. https://www.youtube.com/watch?v=3zF06-yiEJU
+2. https://www.youtube.com/watch?v=bVyigcIt-ac
